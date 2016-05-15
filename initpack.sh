@@ -23,7 +23,7 @@ sudo easy_install-3.4 pip
 pip_packages=()
 pip_packages+=(uwsgi)
 pip_packages+=(django)
-pip_packages+=(flask flask-sqlalchemy)
+pip_packages+=(flask flask-sqlalchemy flask-migrate)
 pip_packages+=(lxml)
 pip_packages+=(m2crypto shadowsocks)
 sudo pip3 install ${pip_packages[@]}
