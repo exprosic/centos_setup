@@ -1,3 +1,4 @@
+#sudo timedatectl set-timezone Asia/Shanghai
 #sudo dd if=/dev/zero of=tmpswap bs=1M count=512
 #sudo chmod 600 tmpswap
 #sudo mkswap tmpswap
